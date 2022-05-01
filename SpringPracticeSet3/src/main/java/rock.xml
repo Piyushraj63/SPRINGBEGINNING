@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean id="lion1" class="net.model.Employee">
+       <property name="m_strFname" value="Piyushraj"></property>
+        <property name="m_strLname" value="Singh"></property>
+        <property name="m_strAddress" ref="adrs"></property>
+   </bean>
+   
+   
+   <bean id="adrs" class="net.model.Address">
+        <property name="city" value="Mumbai"></property>
+        <property name="state" value="Maharashtra"></property>
+        <property name="country" value="India"></property>
+   </bean>
+
+</beans>

@@ -5,16 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.6</version>
+		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>FirstStage</groupId>
-	<artifactId>SpringFirstStage</artifactId>
+	<groupId>net.pro</groupId>
+	<artifactId>SpringPracticeSet3</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringFirstStage</name>
+	<name>SpringPracticeSet3</name>
 	<description>First Spring project for learning Spring</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>18</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
